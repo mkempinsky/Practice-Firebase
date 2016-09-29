@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="../bower_components/bulma/css/bulma.css"/>
+    <link rel="stylesheet" href="../bower_components/sweetalert/dist/sweetalert.css" />
+    <link rel="manifest" href="../manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Testing Firebase</title>
+  </head>
+  <body>
+
+  <!-- NAV BAR -->
+  <nav class="nav">
+  
+  </nav>
+
+    <div id="message">
+      <h1>Testing Firebase</h1>
+      <p>- A practice project for learning firebase -</p>
+      <ul>
+        <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
+      </ul>
+    </div>
+
+
+  <script src="main.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase-database.js"></script>
+  
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBttUfaHrXjZrLW2OvH4r1s7HRvzULC-1M",
+      authDomain: "practice-project-5cbba.firebaseapp.com",
+      databaseURL: "https://practice-project-5cbba.firebaseio.com",
+      storageBucket: "practice-project-5cbba.appspot.com",
+      messagingSenderId: "422503044351"
+    };
+    firebase.initializeApp(config);
+  </script>
+  </body>
+
+
+
+
+</html>
